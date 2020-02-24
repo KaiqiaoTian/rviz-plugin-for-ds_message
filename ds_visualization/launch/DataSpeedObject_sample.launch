@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ds_visualization" type="DataSpeedObject_sample.py"
+        name="DataSpeedObject_sample" />
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ds_visualization)/config/DataSpeedObject_sample.rviz" />
+</launch>

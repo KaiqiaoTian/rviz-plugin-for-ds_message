@@ -1,0 +1,20 @@
+<library path="lib/libds_visualization">
+  
+
+  <class name="ds_visualizations/DataspeedObjectArray"
+         type="ds_visualization::DataspeedObjectArrayDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      visualize ds_av_msgs/DataspeedObjectArray
+    </description>
+  </class>
+  <class name="ds_visualizations/DataspeedObject"
+         type="ds_visualization::DataspeedObjectDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      visualize ds_av_msgs/DataspeedObject
+    </description>
+  </class>
+ 
+
+</library>
